@@ -1,0 +1,197 @@
+
+.navbar{
+  background: rgba(0, 0, 0, 0);  
+  padding: 0 !important;
+}
+
+.navbar img{
+  height: 130px;
+  width: 120px;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 45px;
+}
+
+.navbar a{  
+  color: #FFFFFF !important;
+  font-family: Comfortaa;
+  font-size: 30px;
+}
+
+.navbar-nav li{
+  padding: 0 10px;
+}
+
+.navbar-nav li a{
+  color: #FFFFFF !important;
+  font-family: Montserrat;  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;  
+  text-align: left;
+  float: right;
+  letter-spacing: -0.015em;
+}
+
+.fa-bars{
+  color: #FFFFFF;
+  font-size: 30px !important;
+}
+
+.navbar-toggler{
+  outline: none !important;
+}
+
+#landing-text{
+  padding-top: 5%;
+}
+
+.headline h1{
+
+  color: #FFFFFF;  
+  font-family: Poppins !important;
+  font-size: 90px !important;
+  font-style: normal;
+  font-weight: 950;
+  margin-top: 10px;  
+  letter-spacing: 0.2px;
+
+}
+
+.sub-heading p{
+
+  color: #E5E5E5;
+  font-family: Poppins !important;
+  font-size: 30px !important;
+  font-style: normal;
+  font-weight: bold;
+  font-weight: 90;
+
+  padding: 40px;  
+  letter-spacing: 0.2px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.buttons button {
+
+  align-items: center;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box ;
+  filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15)) !important;
+  border-radius: 50px !important;
+  margin: 10px 80px 10px 80px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px !important; 
+  width: 50px !important;
+  padding: 5px !important;
+  
+}
+
+.macbook img{
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;      
+}
+
+.curved-div {
+  background: linear-gradient(39.97deg, #03D6F3 0.79%, #25B1F5 41.78%, #458FF6 79.29%);
+  background-image: linear-gradient(45deg,#03D6F3,#458FF6);
+  text-align: center;
+  }
+
+.curved-div h1 {
+  font-size: 6rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+.curved-div p {
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+.curved-div svg {
+    display: block;
+  }
+
+#second-headline{
+  text-align: center;
+}
+
+.learn-react{
+  background-image: url("static/Frame.svg");
+}
+
+#course-details{
+  text-align: center;
+  margin: 5px 2px 5px 2px;
+  padding: 2px 2px 2px 2px;
+}
+
+#instructor{
+  text-align: center;
+  margin: 5px 2px 5px 2px;
+  padding: 2px 2px 2px 2px;
+}
+
+#testimonials{
+  text-align: center;
+}
+
+#faqs{
+  text-align: center;
+}
+
+#footer{
+  background-color: #F1F3F6;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+.credits{
+  text-align:  center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {  
+  background: #bb0000;  
+  color: white;  
+}
+
+.fa-github {
+  background: #000;
+  color: white;
+}
+
+#insta {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;         
+          background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  font-size: 30px; 
+  
+}
