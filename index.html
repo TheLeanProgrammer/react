@@ -48,9 +48,9 @@
       <section id="navigation-bar"> 
         <nav class="navbar navbar-expand-lg navbar-light nvb">
           <div class="container-fluid">
-            <div class="logo">
+            <div class="navlogo">
               <img src="/static/logo.png" class="img-fluid" alt="Responsive image"> 
-              <a class="navbar-brand" href="#">Mega React Tutorial</a>
+              <a class="navbar-brand" href="#navigation-bar">Mega React Tutorial</a>
             </div>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,19 +60,19 @@
               <div class="collapse navbar-collapse" id="navbarText" >
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Learning</a>
+                    <a class="nav-link active" aria-current="page" href="#second-headline">Learning</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About the intructor</a>
+                    <a class="nav-link" href="#instructor">About the intructor</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">The Students</a>
+                    <a class="nav-link" href="#testimonials">The Students</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">FAQ</a>
+                    <a class="nav-link" href="#faqs">FAQ</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#footer">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -98,20 +98,21 @@
                 </div>            
             </div>
 
-            <div class="row buttons">
-              <button type="button" class="series col ml-5" style="margin-right: 10px;">Watch the series</button>
-              <button type="button" class="curriculum col mr-5" style="margin-left: 10px;">See the Curriculum</button>          
-           </div>         
-              
+            <div class="links">
+            <a href="#course-details" class="btn btn-md col ml-5 series">Watch the Series</a>
+            <a href="#course-details" class="btn btn-md col mr-5 curriculum">See the Curriculum</a>
+           </div>
+
           <div class="row">
-            <div class="macbook">
-              <img src="static/macbookpro.png" class="img-fluid" alt="Responsive image"/>
+            <div class="macbook">             
+                <iframe  src="https://www.youtube.com/embed/videoseries?list=PLGyA74h_S9NqJvvQ7-l9bUHHS6bMCkgo0" title="YouTube video player"></iframe>
             </div>
           </div>
         </div>
 
       </section>
-      
+    
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -123,30 +124,28 @@
 
       <!-- Second Headline -->
     <section id="second-headline">
-      <h1>
-        Why should you learn ReactJS
-      </h1>
-      <svg width="56" height="2" viewBox="0 0 56 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect width="56" height="2" rx="1" fill="black"/>
-      </svg>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
-
-      <div class="learn-react container">
+      <div class="info">
+        <h1>
+          Why should you learn ReactJS?
+        </h1>
+        <img src="static/line.svg" class="img-fluid" alt="Responsive image">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+      </div>
+      
+      <div class="container learn-react">
 
         <div class="row">
-          <div class="col col-md-6">
+          <div class="col col-md-6 lhs">
             <h3>Sed ut perspiciatis</h3>
             <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
-
             <h3>Lorem ipsum dolor</h3>
             <p>Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
             <h3>Nemo enim ipsam</h3>
             <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>   
           </div>
 
-          <div class="col col-md-6">
-            <img src="static/whyLearn.svg" alt="">
+          <div class="col col-md-6 rhs">
+            <img src="static/whyLearn.svg" class="img-fluid" alt="Responsive image">
           </div>
         </div>
 
@@ -154,175 +153,151 @@
     </section>
 
       <section id="course-details">
-        <h1>
-          What will we learn in this course?
-        </h1>
-        <svg width="56" height="2" viewBox="0 0 56 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="56" height="2" rx="1" fill="black"/>
-        </svg>
-        
-        <div class="container">
+        <div class="info">
+          <h1>
+            What will we learn in this course?
+          </h1>
+          <img src="static/line.svg" class="img-fluid" alt="Responsive image">
+        </div>
+                
+        <div class="container curriculum_card">
           <div class="row">
             <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="static/image1.png" alt="Card image cap">
+              <div class="card" >
+                <img class="card-img-top" src="static/image1.png" class="img-fluid" alt="Responsive image">
                 <div class="card-body">
-                  <h5 class="card-title">React Basics - State, Props,Components.</h5>
+                  <h5 class="card-title">React Basics - State, Props, Components.</h5>
                   <p class="card-text">Learn the basics of ReactJS by building a cool name Suggestion Application.</p>
-                  <a href="#" class="">Watch more<svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.37501 5.30357L11.9822 5.30357L9.65179 7.63393C9.33037 7.95536 9.33037 8.4375 9.65179 8.75893C9.97322 9.08036 10.4554 9.08036 10.7768 8.75893L14.4732 5.0625C14.7947 4.74107 14.7947 4.25893 14.4732 3.9375L10.7768 0.241071C10.4554 -0.0803579 9.97322 -0.080358 9.65179 0.241071C9.33037 0.5625 9.33037 1.04464 9.65179 1.36607L11.9822 3.69643L1.37501 3.69643C0.973222 3.69643 0.571436 4.01786 0.571436 4.5C0.571436 4.98214 0.973222 5.30357 1.37501 5.30357Z" fill="#4089ED"/>
-                    </svg>
-                    </a>
+                  <a href="#" class="">Watch more <img src="static/arrow.svg" class="img-fluid" alt="Responsive image"></a>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="static/image2.png" alt="Card image cap">
+              <div class="card" >
+                <img class="card-img-top" src="static/image2.png" class="img-fluid" alt="Responsive image">
                 <div class="card-body">
                   <h5 class="card-title">Lifecycle Methods and Network Requests</h5>
                   <p class="card-text">Learn the basics of ReactJS by building a cool name Suggestion Application.</p>
-                  <a href="#" class="">Watch more<svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.37501 5.30357L11.9822 5.30357L9.65179 7.63393C9.33037 7.95536 9.33037 8.4375 9.65179 8.75893C9.97322 9.08036 10.4554 9.08036 10.7768 8.75893L14.4732 5.0625C14.7947 4.74107 14.7947 4.25893 14.4732 3.9375L10.7768 0.241071C10.4554 -0.0803579 9.97322 -0.080358 9.65179 0.241071C9.33037 0.5625 9.33037 1.04464 9.65179 1.36607L11.9822 3.69643L1.37501 3.69643C0.973222 3.69643 0.571436 4.01786 0.571436 4.5C0.571436 4.98214 0.973222 5.30357 1.37501 5.30357Z" fill="#4089ED"/>
-                    </svg>
-                    </a>
+                  <a href="#" class="">Watch more <img src="static/arrow.svg" class="img-fluid" alt="Responsive image"></a>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="static/image1.png" alt="Card image cap">
+              <div class="card" >
+                <img class="card-img-top" src="static/image1.png" class="img-fluid" alt="Responsive image">
                 <div class="card-body">
-                  <h5 class="card-title">React Basics - State, Props,Components.</h5>
+                  <h5 class="card-title">React Basics - State, Props, Components.</h5>
                   <p class="card-text">Learn the basics of ReactJS by building a cool name Suggestion Application.</p>
-                  <a href="#" class="">Watch more<svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.37501 5.30357L11.9822 5.30357L9.65179 7.63393C9.33037 7.95536 9.33037 8.4375 9.65179 8.75893C9.97322 9.08036 10.4554 9.08036 10.7768 8.75893L14.4732 5.0625C14.7947 4.74107 14.7947 4.25893 14.4732 3.9375L10.7768 0.241071C10.4554 -0.0803579 9.97322 -0.080358 9.65179 0.241071C9.33037 0.5625 9.33037 1.04464 9.65179 1.36607L11.9822 3.69643L1.37501 3.69643C0.973222 3.69643 0.571436 4.01786 0.571436 4.5C0.571436 4.98214 0.973222 5.30357 1.37501 5.30357Z" fill="#4089ED"/>
-                    </svg>
-                    </a>
+                  <a href="#" class="">Watch more <img src="static/arrow.svg" class="img-fluid" alt="Responsive image"></a>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="static/image1.png" alt="Card image cap">
+              <div class="card" >
+                <img class="card-img-top" src="static/image1.png" class="img-fluid" alt="Responsive image">
                 <div class="card-body">
-                  <h5 class="card-title">React Basics - State, Props,Components.</h5>
+                  <h5 class="card-title">React Basics - State, Props, Components.</h5>
                   <p class="card-text">Learn the basics of ReactJS by building a cool name Suggestion Application.</p>
-                  <a href="#" class="">Watch more<svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.37501 5.30357L11.9822 5.30357L9.65179 7.63393C9.33037 7.95536 9.33037 8.4375 9.65179 8.75893C9.97322 9.08036 10.4554 9.08036 10.7768 8.75893L14.4732 5.0625C14.7947 4.74107 14.7947 4.25893 14.4732 3.9375L10.7768 0.241071C10.4554 -0.0803579 9.97322 -0.080358 9.65179 0.241071C9.33037 0.5625 9.33037 1.04464 9.65179 1.36607L11.9822 3.69643L1.37501 3.69643C0.973222 3.69643 0.571436 4.01786 0.571436 4.5C0.571436 4.98214 0.973222 5.30357 1.37501 5.30357Z" fill="#4089ED"/>
-                    </svg>
-                    </a>
+                  <a href="#" class="">Watch more <img src="static/arrow.svg" class="img-fluid" alt="Responsive image"></a>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="static/image2.png" alt="Card image cap">
+              <div class="card">
+                <img class="card-img-top" src="static/image2.png" class="img-fluid" alt="Responsive image">
                 <div class="card-body">
                   <h5 class="card-title">Lifecycle Methods and Network Requests</h5>
                   <p class="card-text">Learn the basics of ReactJS by building a cool name Suggestion Application.</p>
-                  <a href="#" class="">Watch more<svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.37501 5.30357L11.9822 5.30357L9.65179 7.63393C9.33037 7.95536 9.33037 8.4375 9.65179 8.75893C9.97322 9.08036 10.4554 9.08036 10.7768 8.75893L14.4732 5.0625C14.7947 4.74107 14.7947 4.25893 14.4732 3.9375L10.7768 0.241071C10.4554 -0.0803579 9.97322 -0.080358 9.65179 0.241071C9.33037 0.5625 9.33037 1.04464 9.65179 1.36607L11.9822 3.69643L1.37501 3.69643C0.973222 3.69643 0.571436 4.01786 0.571436 4.5C0.571436 4.98214 0.973222 5.30357 1.37501 5.30357Z" fill="#4089ED"/>
-                    </svg>
-                    </a>
+                  <a href="#" class="">Watch more <img src="static/arrow.svg" class="img-fluid" alt="Responsive image"></a>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="static/image1.png" alt="Card image cap">
+              <div class="card">
+                <img class="card-img-top" src="static/image1.png" class="img-fluid" alt="Responsive image">
                 <div class="card-body">
-                  <h5 class="card-title">React Basics - State, Props,Components.</h5>
+                  <h5 class="card-title">React Basics - State, Props, Components.</h5>
                   <p class="card-text">Learn the basics of ReactJS by building a cool name Suggestion Application.</p>
-                  <a href="#" class="">Watch more<svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.37501 5.30357L11.9822 5.30357L9.65179 7.63393C9.33037 7.95536 9.33037 8.4375 9.65179 8.75893C9.97322 9.08036 10.4554 9.08036 10.7768 8.75893L14.4732 5.0625C14.7947 4.74107 14.7947 4.25893 14.4732 3.9375L10.7768 0.241071C10.4554 -0.0803579 9.97322 -0.080358 9.65179 0.241071C9.33037 0.5625 9.33037 1.04464 9.65179 1.36607L11.9822 3.69643L1.37501 3.69643C0.973222 3.69643 0.571436 4.01786 0.571436 4.5C0.571436 4.98214 0.973222 5.30357 1.37501 5.30357Z" fill="#4089ED"/>
-                    </svg>
-                    </a>
+                  <a href="#" class="">Watch more <img src="static/arrow.svg" class="img-fluid" alt="Responsive image"></a>
                 </div>
               </div>
             </div>
-          </div>
-  
+          </div>  
         </div>
       </section>
      
       <section id="instructor">
-        <h1>
-          About the instructor
-        </h1>
-        <svg width="56" height="2" viewBox="0 0 56 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="56" height="2" rx="1" fill="black"/>
-        </svg>
+        <div class="info">
+          <h1>
+            About the instructor
+          </h1>
+          <img src="static/line.svg" class="img-fluid" alt="Responsive image">
+        </div>        
 
         <div class="instructor-details container">
           <div class="row">
-
-            <div class="col col-md-6">
-              <img src="static/instructorVector.svg" alt="">
+            <div class="col col-md-6 lhs2">
+              <img src="static/instructor-img.png" class="img-fluid" alt="Responsive image">
             </div>
-
-            <div class="col col-md-6">
-              <h2>Sed ut perspiciatis unde omnis</h2>
+            <div class="col col-md-6 rhs2">
+              <h3>Sed ut perspiciatis unde omnis</h3>
               <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
               <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>             
-            </div>
-  
-            
+            </div>            
           </div>
-
         </div>
-
       </section>
 
       <section id="testimonials">
-        <h1>
-          What are people saying about it
-        </h1>
-        <svg width="56" height="2" viewBox="0 0 56 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="56" height="2" rx="1" fill="black"/>
-        </svg>
-        
+        <div class="info">
+          <!-- <h1>What are people saying about it</h1>
+          <img src="static/line.svg" class="img-fluid" alt="Responsive image"> -->
+        </div>        
       </section>        
 
                     
       <section id="faqs">
-        <h1>
-          Frequently Asked Questions
-        </h1>
-        <svg width="56" height="2" viewBox="0 0 56 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="56" height="2" rx="1" fill="black"/>
-        </svg>
+        <div class="info">
+          <!-- <h1>Frequently Asked Questions</h1>
+          <img src="static/line.svg" class="img-fluid" alt="Responsive image"> -->
+        </div>        
       </section>      
 
       <section id="footer">
         <div class="container">
           <div class="row">
-            <div class="col col-md-4">
-              <div class="logo">
-                <img src="static/logo_black.png" alt="">
-                <p>Follow Me: <a href="#" class="fa fa-facebook"></a> <a href="#" class="fa fa-twitter"></a> <i class="fa fa-instagram" id="insta" aria-hidden="true"></i><a href="#" class="fa fa-youtube"></a> <a href="#" class="fa fa-github"></a></p>
-                
-                
+            <div class="col col-md-4 logo">              
+                <img src="static/logo_black.png" class="img-fluid" alt="Responsive image">             
+            </div>           
+            
+              <div class="col col-md-4">
+                <div class="title">
+                  <h3>AAM Series</h3>
+                  <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam</p>
+                   <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem</p>
+                </div>
+              </div>
+              <div class="col col-md-4">
+                <div class="title">
+                  <h3>SPECIAL THANKS</h3>
+                  <p>Parinda Pranami - For Development</p>
+                  <p>add socials here</p>                   
+                </div>
               </div>
             </div>
-            <div class="col col-md-4">
-              <div class="title">
-                <h3>AAM Series</h3>
-                <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam</p>
-                 <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem</p>
-                
-              </div>
-            </div>
-            <div class="col col-md-4">
-              <div class="title">
-                <h3>SPECIAL THANKS</h3>
-                <p>Smile Gupta - For Development</p>
-                <p>Hero Ninja - For Gradients</p>
-                <p>Converter - For UI Components</p>  
-              </div>
-            </div>
-          </div>
-          </div>  
+
+              <section id="lab_social_icon_footer">               
+                <div class="container">
+                        <div class="text-center center-block">
+                          <p>Follow Me: 
+                              <a href="https://www.facebook.com/bootsnipp"><i id="social-ig" class="fa fa-instagram fa-3x social"></i></a>
+                              <a href="https://twitter.com/bootsnipp"><i id="social-ld" class="fa fa-linkedin-square fa-3x social"></i></a>
+                              <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gb" class="fa fa-github-square fa-3x social"></i></a>
+                              <a href="mailto:#"><i id="social-yt" class="fa fa-youtube-square fa-3x social"></i></a> </p>
+                    </div>
+                </div>
+              </section> 
+         </div>  
       </section>
 
       <div class="credits">
