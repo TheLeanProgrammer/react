@@ -2,31 +2,21 @@
   font-size: 1vw;
 }
 
-.navbar{
-  padding-top: 0px;
-  margin-top: 0px;
-}
-
 .navbar img{
   height: 160px;
   width: 150px;
-  padding: 3px;
-  margin: 0px 0px 0px 45px;
 }
 
-.navbar a{  
+.navlogo a{  
   color: #FFFFFF !important;
   font-family: 'Comfortaa', cursive;
   font-size: 30px;
   font-weight: bold;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
-.navbar-nav li{
+.navbar-text a{
   padding: 0 10px;
-}
-
-.navbar-nav li a{
   color: #FFFFFF !important;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
@@ -35,6 +25,7 @@
   float: right;
   letter-spacing: -0.015em;
 }
+
 
 .fa-bars{
   color: #FFFFFF;
@@ -90,18 +81,17 @@
 }
 
 .macbook {
+  
   text-align: center;
   background-image: url("static/mac-outline.png");
-  margin: 10px;
+  margin: 0 4%;
   padding: 45px;
   width: 65em;
   height: 35em;
 }
 
 .macbook iframe{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  
   width: 800px;
   height: 450px; 
 }
@@ -112,9 +102,12 @@
   text-align: center;
 }
 
-
 #second-headline{
   text-align: center; 
+}
+
+.lhs-subdiv {
+  margin: 90px 10px 10px 100px;
 }
 
 .info h1{  
@@ -125,7 +118,7 @@
 }
 
 .info p{
-  margin: 10px 70px 50px 70px;  
+  margin: 10px 50px 0px 50px;  
   padding: 25px;
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
@@ -133,13 +126,15 @@
 
 .lhs{
   background: url(static/whylearn-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .lhs h3{
   text-align: left;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .lhs p{
@@ -149,11 +144,6 @@
   margin-top: 10px;
 }
 
-.rhs img{
-  margin: -80px;
-  margin-left: 50px;
-  padding: 36px;
-}
 
 #course-details{
   margin-top: 60px;
@@ -161,10 +151,11 @@
 }
 
 .curriculum_card{
-  background-image: url("static/cards_bg.png");
-  background-position: 50% 50%;
-  background-size: cover;
 
+  background-image: url("static/cards_bg.png"); 
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .card{
@@ -215,25 +206,24 @@
   text-align: right;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  margin-top: 30px;
+  margin: 100px 100px 10px 5px;
 }
 
 .rhs2 p{
   text-align: right;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  margin-top: 10px;
+  margin: 10px 100px 10px 5px; 
 }
 
-.lhs2 img{
-  margin: 5px 20px 30px 0px;
-  margin-right: 20px;
-  
+.lhs2 {
+  height: 50%;
+  width: 50%;
 }
 
 #instructor{
   text-align: center;
-  margin-top: 60px;  
+  margin-top: 60px;
 }
 
 #testimonials{
@@ -247,6 +237,7 @@
 #footer{
   background-color: #F1F3F6;
   padding: 30px;
+  margin-top: 50px;
   margin-bottom: 10px;
 }
 
