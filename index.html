@@ -62,7 +62,7 @@
               <div class="collapse navbar-collapse" id="navbarText" >
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#second-headline">Learning</a>
+                    <a class="nav-link " aria-current="page" href="#second-headline">Learning</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#instructor">About the intructor</a>
@@ -258,9 +258,46 @@
 
       <section id="testimonials">
         <div class="info">
-          <!-- <h1>What are people saying about it</h1>
-          <img src="static/line.svg" class="img-fluid" alt="Responsive image"> -->
-        </div>        
+          <h1>What are people saying about it</h1>
+          <img src="static/line.svg" class="img-fluid" alt="Responsive image">
+        </div> 
+
+          <div class="review">
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+              <!-- Full-width slides/quotes -->
+              <div class="mySlides">
+                <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio eu pulvinar id magna. Nec vitae eleifend elit malesuada egestas.
+
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio eu pulvinar id magna. Nec vitae eleifend elit malesuada egestas.</q>
+                <p class="author">- John Keats</p>
+              </div>
+
+              <div class="mySlides">
+                <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio eu pulvinar id magna. Nec vitae eleifend elit malesuada egestas.
+
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio eu pulvinar id magna. Nec vitae eleifend elit malesuada egestas.</q>
+                <p class="author">- Ernest Hemingway</p>
+              </div>
+
+              <div class="mySlides">
+                <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio eu pulvinar id magna. Nec vitae eleifend elit malesuada egestas.
+
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio eu pulvinar id magna. Nec vitae eleifend elit malesuada egestas.</q>
+                <p class="author">- Thomas A. Edison</p>
+              </div>
+            </div>
+          
+            <div class="dot-container">
+              <a class="prev" onclick="plusSlides(-1)"><img src="static/arrow.svg" class="img-fluid" alt="Responsive image" style="-webkit-transform: scaleX(-1); transform: scaleX(-1);" ></a>
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <a class="next" onclick="plusSlides(1)"><img src="static/arrow.svg" class="img-fluid" alt="Responsive image"></a>
+            </div>
+          </div>
+               
       </section>        
 
                     
@@ -312,7 +349,7 @@
         <p>© TheLeanProgrammer, 2021</p>
       </div>
       
-  
+      <script src="index.js"></script>
   </body>
 </html>
 

@@ -228,6 +228,74 @@
 
 #testimonials{
   text-align: center;
+  margin-top: 60px;
+  
+}
+
+.review{
+  background-image: url("static/testimonials_bg.png");
+  background-repeat: no-repeat;
+  background-position-x: 200px;
+  background-position-y: 200px;
+}
+
+.slideshow-container {  
+  background: linear-gradient(208.18deg, #458FF6 28.23%, #039DF3 76.74%);
+  border-radius: 30px;  
+  margin:80px 300px 5px 300px;
+  padding: 50px;
+  
+}
+
+.mySlides {  
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.prev , .next {
+  cursor: pointer;  
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(59, 57, 57, 0.096); 
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;  
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #5B9BF3;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #346fc0;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-family: 'Mulish', sans-serif; 
+  font-style: italic;
+  color: #FFFFFF;
+}
+
+/* Add a blue color to the author */
+.author {
+  margin-top: 35px;
+  color: #FFFFFF;
 }
 
 #faqs{
@@ -323,3 +391,6 @@
   font-size: 30px; 
   
 }  */
+
+
+
