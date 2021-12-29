@@ -1,0 +1,471 @@
+.body {
+    font-size: 1vw;
+}
+
+.navbar img {
+    height: 160px;
+    width: 150px;
+}
+
+.navlogo a {
+    color: #ffffff !important;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.navbar-text a {
+    padding: 0 10px;
+    color: #ffffff !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+    float: right;
+    letter-spacing: -0.015em;
+}
+
+.fa-bars {
+    color: #ffffff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+#landing-text {
+    padding-top: 2em;
+}
+
+.headline h1 {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.sub-heading p {
+    color: #e5e5e5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    margin: 10px;
+}
+
+.links a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+    border-radius: 50px;
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+}
+
+.series:hover,
+.curriculum:hover {
+    background: #ffffff;
+    color: #000;
+}
+
+.macbook {
+    text-align: center;
+    background-image: url('static/mac-outline.png');
+    margin: 0 4%;
+    padding: 45px;
+    width: 65em;
+    height: 35em;
+}
+
+.macbook iframe {
+    width: 800px;
+    height: 450px;
+}
+
+.curved-div {
+    background: linear-gradient(
+        39.97deg,
+        #03d6f3 0.79%,
+        #25b1f5 41.78%,
+        #458ff6 79.29%
+    );
+    background-image: linear-gradient(45deg, #03d6f3, #458ff6);
+    text-align: center;
+}
+
+.dark-wave {
+    background: url('static/dark_wave.png');
+}
+
+#second-headline {
+    text-align: center;
+}
+
+.lhs-subdiv {
+    margin: 90px 10px 10px 100px;
+}
+
+.info h1 {
+    letter-spacing: 0.2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 46px;
+}
+
+.info p {
+    margin: 10px 50px 0px 50px;
+    padding: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.my-perfect-padding {
+    padding: 20px;
+}
+
+@media (min-width: 480px) {
+    .lhs {
+        background: url(static/whylearn-bg.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+.lhs h3 {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.lhs p {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#course-details {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.curriculum_card {
+    background-image: url('static/cards_bg.png');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.card {
+    margin: 35px 10px 35px 10px;
+    padding: 2px 2px 2px 2px;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.15));
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card img {
+    border-radius: 15px 15px 0px 0px;
+    padding: 0.5px;
+}
+
+.card-body h5 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    line-height: 32px;
+    margin: 15px;
+    margin-right: 5px;
+}
+
+.card-body p {
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #7d7987;
+    text-align: left;
+    margin: 15px;
+}
+
+.card-body a {
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #4089ed;
+    text-decoration: none;
+    text-align: left !important;
+    margin: 15px;
+}
+
+.rhs2 h3 {
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 100px 100px 10px 5px;
+}
+
+.rhs2 p {
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin: 10px 100px 10px 5px;
+    padding: 0px;
+}
+
+.lhs2 {
+    height: 50%;
+    width: 50%;
+}
+
+#instructor {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#testimonials {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.review {
+    background-image: url('static/testimonials_bg.png');
+    background-repeat: no-repeat;
+    background-position-x: 200px;
+    background-position-y: 200px;
+}
+
+.slideshow-container {
+    background: linear-gradient(208.18deg, #458ff6 28.23%, #039df3 76.74%);
+    border-radius: 30px;
+    margin: 80px 300px 5px 300px;
+    padding: 50px;
+}
+
+.mySlides {
+    padding: 10px;
+    text-align: center;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(59, 57, 57, 0.096);
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #5b9bf3;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+    background-color: #346fc0;
+}
+
+/* Add an italic font style to all quotes */
+q {
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+    color: #ffffff;
+}
+
+/* Add a blue color to the author */
+.author {
+    margin-top: 35px;
+    color: #ffffff;
+}
+
+#faqs {
+    text-align: center;
+    margin-top: 60px;
+    background-image: url('static/faq_bg.png');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.layout {
+    margin: 10px 20px 10px 165px;
+    padding: 10px;
+    width: 75%;
+    text-align: center;
+}
+
+.accordion {
+    padding: 5px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    background: #ffffff;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.15));
+    border-radius: 25px;
+}
+
+.accordion__question img {
+    width: 125px;
+    height: 70px;
+}
+
+.dropdown {
+    width: 60px !important;
+    height: 20px !important;
+    margin-top: 25px;
+    margin-left: 45%;
+    float: right;
+    margin-right: 0px;
+}
+
+.accordion__question p {
+    margin: 20px 0px 2px 2px;
+    padding: 0px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.accordion__answer p {
+    margin-left: 45px;
+    padding: 10px;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    background: #ffffff;
+    /* filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.15));
+  border-radius: 10px; */
+}
+
+.accordion__answer img {
+    /* width: 50px;
+  height: 90px; */
+    /* margin: 5px 0px 5px 50px; */
+}
+
+.accordion:hover {
+    cursor: pointer;
+}
+.accordion__answer {
+    display: none;
+}
+.accordion.active .accordion__answer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer {
+    background-color: #f1f3f6;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    margin-top: 0px;
+    padding: 0px;
+    width: 250px;
+}
+
+.title h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.title p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.credits {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#lab_social_icon_footer .text-center {
+    /* padding: 40px 0; */
+    /* background-color: #dedede; */
+    text-align: left !important;
+}
+
+#lab_social_icon_footer a {
+    color: #333;
+}
+
+#lab_social_icon_footer p {
+    margin: -2px 0px -5px -45px;
+    padding: 5px;
+}
+
+#lab_social_icon_footer .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+#lab_social_icon_footer .social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+#lab_social_icon_footer #social-ig:hover {
+    color: #8a3ab9;
+}
+
+#lab_social_icon_footer #social-ld:hover {
+    color: #0077b5;
+}
+
+#lab_social_icon_footer #social-gb:hover {
+    color: #000;
+}
+
+#lab_social_icon_footer #social-yt:hover {
+    color: #bb0000;
+}
+
+/* #insta {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;         
+          background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  font-size: 30px; 
+  
+}  */
