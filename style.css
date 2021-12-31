@@ -210,14 +210,14 @@
   text-align: right;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  margin: 100px 100px 10px 5px;
+  margin: 100px 0px 10px 5px;
 }
 
 .rhs2 p{
   text-align: right;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  margin: 10px 100px 10px 5px; 
+  margin: 10px 0px 10px 5px; 
   padding: 0px;
 }
 
@@ -352,12 +352,10 @@ q {
 .accordion__answer p {
   margin-left: 45px; 
   padding: 10px;
-  font-size: large;
+  font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   color: #000;
   background: #FFFFFF;
-  /* filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.15));
-  border-radius: 10px; */
 }
 
 .accordion__answer img{
@@ -369,14 +367,51 @@ q {
 .accordion:hover {
   cursor: pointer;
 }
+
 .accordion__answer {
   display: none;
 }
+
 .accordion.active .accordion__answer {
   display: flex;
   justify-content: space-between;
 }
 
+.subscribe {
+  background: url("static/testimonials_bg.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.newsletter {
+  background: linear-gradient(90.06deg, #30D7BA 0.05%, #03ABF3 35.43%, #458FF6 99.94%);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;  
+  color: #FFFFFF;
+  
+}
+
+.newsletter h2{
+  text-align: center;
+  font-size: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.newsletter a{
+  text-align: center;
+  justify-content: end;  
+  font-size: 20px;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;  
+  border-radius: 50px; 
+  padding: 10px;
+  text-decoration: none;
+  margin: 10px; 
+}
 
 #footer{
   background-color: #F1F3F6;
@@ -412,8 +447,6 @@ q {
 }
 
 #lab_social_icon_footer .text-center{
-  /* padding: 40px 0; */
-  /* background-color: #dedede; */
   text-align: left !important;
 }
 
@@ -434,8 +467,6 @@ q {
 
 #lab_social_icon_footer .social {
   -webkit-transform: scale(0.8);
-  /* Browser Variations: */
-  
   -moz-transform: scale(0.8);
   -o-transform: scale(0.8);
   -webkit-transition-duration: 0.5s;
