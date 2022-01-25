@@ -43,7 +43,11 @@
   </head>
   
 <body >
-    
+   
+  <!-- <div class="container main">
+            </div> -->
+
+  
   <div class="dark-wave"></div>
     <div class="curved-div">
 
@@ -90,13 +94,13 @@
         <div class="container">
 
             <div class="row">
-                <div class="headline col-md-12">
+                <div class="headline col-sm-12">
                   <h1>Become an expert at ReactJS for FREE!</h1>
                 </div>
             </div>
 
             <div class="row">             
-                <div class="sub-heading col-md-12">
+                <div class="sub-heading col-sm-12">
                   <p>Learn React from scratch by building cool projects</p>
                 </div>            
             </div>
@@ -107,9 +111,9 @@
            </div>
 
          
-            <div class="macbook">             
+            <!-- <div class="macbook">             
                 <iframe  src="https://www.youtube.com/embed/videoseries?list=PLGyA74h_S9NqJvvQ7-l9bUHHS6bMCkgo0" title="YouTube video player"></iframe>
-            </div>
+            </div> -->
           
         </div>
 
@@ -138,8 +142,8 @@
       <div class="learn-react">
 
         <div class="row">
-          <div class="col col-md-6 lhs">
-            <div class="lhs-subdiv">
+          <div class="col col-md-6 col-sm-12 col-12 lhs">
+            <div class="lhs-subdiv offset-md-1">
               <h3>Sed ut perspiciatis</h3>
               <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
               <h3>Lorem ipsum dolor</h3>
@@ -150,7 +154,7 @@
                
           </div>
 
-          <div class="col col-md-5 rhs">
+          <div class="col col-md-5 col-sm-12 col-12 rhs">
             <img src="static/whyLearn.svg" class="img-fluid" alt="Responsive image">
           </div>
         </div>
@@ -246,13 +250,16 @@
 
         <div class="instructor-details">
           <div class="row">
-            <div class="col col-md-5 lhs2">
+            <div class="col col-md-5 col-sm-12 col-12 lhs2">
               <img src="static/instructor-img.png" class="img-fluid" alt="Responsive image">
             </div>
-            <div class="col col-md-5 rhs2">
-              <h3>Sed ut perspiciatis unde omnis</h3>
-              <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
-              <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>             
+            <div class="col col-md-6 col-sm-12 col-12 rhs2">
+              <div class="rhs2-subdiv offset-md-1 ">
+                <h3>Sed ut perspiciatis unde omnis</h3>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>             
+              </div>
+              
             </div>            
           </div>
         </div>
@@ -264,29 +271,23 @@
           <img src="static/line.svg" class="img-fluid" alt="Responsive image">
         </div> 
 
-          <div class="review">
+          <div class="review container">
             <!-- Slideshow container -->
-            <div class="slideshow-container">
 
+            <div class="slideshow-container">
               <!-- Full-width slides/quotes -->
               <div class="mySlides">
-                <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio eu pulvinar id magna. Nec vitae eleifend elit malesuada egestas.
-
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio eu pulvinar id magna. Nec vitae eleifend elit malesuada egestas.</q>
+                <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio eu pulvinar id magna. Nec vitae eleifend elit malesuada egestas.mLorem ipsum dolor sit amet, consectetur adipiscing elit. Odio eu pulvinar id magna. Nec vitae eleifend elit malesuada egestas.</q>
                 <p class="author">- John Keats</p>
               </div>
 
               <div class="mySlides">
-                <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio eu pulvinar id magna. Nec vitae eleifend elit malesuada egestas.
-
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio eu pulvinar id magna. Nec vitae eleifend elit malesuada egestas.</q>
+                <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio eu pulvinar id magna. Nec vitae eleifend elit malesuada egestas.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio eu pulvinar id magna. Nec vitae eleifend elit malesuada egestas.</q>
                 <p class="author">- Ernest Hemingway</p>
               </div>
 
               <div class="mySlides">
-                <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio eu pulvinar id magna. Nec vitae eleifend elit malesuada egestas.
-
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio eu pulvinar id magna. Nec vitae eleifend elit malesuada egestas.</q>
+                <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio eu pulvinar id magna. Nec vitae eleifend elit malesuada egestas.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio eu pulvinar id magna. Nec vitae eleifend elit malesuada egestas.</q>
                 <p class="author">- Thomas A. Edison</p>
               </div>
             </div>
@@ -298,6 +299,7 @@
               <span class="dot" onclick="currentSlide(3)"></span>
               <a class="next" onclick="plusSlides(1)"><img src="static/arrow.svg" class="img-fluid" alt="Responsive image"></a>
             </div>
+            
           </div>
                
       </section>        
@@ -309,11 +311,11 @@
           <img src="static/line.svg" class="img-fluid" alt="Responsive image">          
         </div>
         
-        <div class="layout">
+        <div class="layout container">
           
             <div class="accordion">
               <div class="row accordion__question">
-                <img src="static/react.png" class="col col-md-4 img-fluid" alt="Responsive image">
+                <img src="static/react.png" class="col col-md-4 col-sm-0 img-fluid" alt="Responsive image">
                 <p class="col col-md-4">Where is Taj Mahal located?</p>
                 <img src="static/dropdown.png" class="col col-md-4 img-fluid dropdown" alt="Responsive image">
               </div>
@@ -388,18 +390,18 @@
       <section id="footer">
         <div class="container">
           <div class="row">
-            <div class="col col-md-4 logo">              
+            <div class="col col-md-4 col-sm-12 logo">              
                 <img src="static/logo_black.png" class="img-fluid" alt="Responsive image">             
             </div>           
             
-              <div class="col col-md-4">
+              <div class="col col-md-4 col-sm-12">
                 <div class="title">
                   <h3>AAM Series</h3>
                   <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam</p>
                    <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem</p>
                 </div>
               </div>
-              <div class="col col-md-4">
+              <div class="col col-md-4 col-sm-12">
                 <div class="title">
                   <h3>SPECIAL THANKS</h3>
                   <p>Parinda Pranami - For Development</p>
@@ -425,8 +427,9 @@
       <div class="credits">
         <p>© TheLeanProgrammer, 2021</p>
       </div>
-      
+    
       <script src="index.js"></script>
+
   </body>
 </html>
 

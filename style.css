@@ -1,3 +1,8 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+
 .body{
   font-size: 1vw;
 }
@@ -111,7 +116,8 @@
 }
 
 .lhs-subdiv {
-  margin: 90px 10px 10px 100px;
+  margin: 90px 0px 10px 100px;
+  
 }
 
 .info h1{  
@@ -128,10 +134,12 @@
   font-size: 25px;
 }
 
+@media (min-width: 480px) {
 .lhs{
   background: url(static/whylearn-bg.png);
   background-repeat: no-repeat;
   background-size: contain;
+}
 }
 
 .lhs h3{
@@ -210,21 +218,22 @@
   text-align: right;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  margin: 100px 0px 10px 5px;
+  margin: 100px 0px 10px 0px;
 }
 
 .rhs2 p{
   text-align: right;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  margin: 10px 0px 10px 5px; 
-  padding: 0px;
+  margin: 10px 0px 10px 0px; 
 }
 
+/* @media (min-width: 480px) {
 .lhs2 {
   height: 50%;
   width: 50%;
 }
+} */
 
 #instructor{
   text-align: center;
@@ -233,15 +242,16 @@
 
 #testimonials{
   text-align: center;
-  margin-top: 60px;
-  
+  margin-top: 60px; 
 }
 
+@media (min-width: 480px) {
 .review{
   background-image: url("static/testimonials_bg.png");
   background-repeat: no-repeat;
   background-position-x: 200px;
   background-position-y: 200px;
+}
 }
 
 .slideshow-container {  
