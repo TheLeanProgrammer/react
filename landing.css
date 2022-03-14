@@ -1,0 +1,66 @@
+#landing-text{
+    padding-top: 2em;
+  }
+  
+  .headline h1{
+  
+    color: #FFFFFF;  
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;  
+    font-weight: bold;  
+    letter-spacing: 0.5px;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  @media screen and (max-width: 500px){
+    .headline h1{
+    font-size: 70px;
+    }
+  }
+
+  .sub-heading p{
+  
+    color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px ;    
+    letter-spacing: 0.5px;
+    margin: 10px;  
+  }
+  
+  
+  .links a{
+  
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px; 
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box ;
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15)) ;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+  }
+  
+  .series:hover , .curriculum:hover{
+    background: #FFFFFF;
+    color: #000;
+  }
+  
+  .macbook {
+    
+    text-align: center;
+    background-image: url("static/mac-outline.png");
+    margin: 0 4%;
+    padding: 45px;
+    width: 65em;
+    height: 35em;
+  }
+  
+  .macbook iframe{
+    
+    width: 800px;
+    height: 450px; 
+  }
+  

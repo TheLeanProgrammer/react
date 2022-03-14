@@ -1,0 +1,78 @@
+#course-details{
+    margin-top: 60px;
+    text-align: center;  
+  }
+  
+  .curriculum_card{
+  
+    background-image: url("static/cards_bg.png"); 
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  
+  .card{
+    margin: 35px 10px 35px 10px;
+    padding: 2px 2px 2px 2px;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.15));
+  }
+  
+  .card {
+    border-radius: 15px;
+  }
+  
+  .card img{
+    border-radius: 15px 15px 0px 0px;  
+    padding: 0.5px;
+  }
+  
+  .card-body h5{
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    line-height: 32px;
+    margin: 15px;
+    margin-right: 5px;
+  }
+  
+  .card-body p{  
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #7D7987;
+    text-align: left;
+    margin: 15px;
+  }
+  
+  .card-body a{  
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    line-height: 28px;  
+    color: #4089ED;
+    text-decoration: none;
+    text-align: left !important;
+    margin: 15px;
+  }
+  
+  .rhs2 h3{
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 100px 0px 10px 0px;
+  }
+  
+  .rhs2 p{
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin: 10px 0px 10px 0px; 
+  }
+  
+  /* @media (min-width: 480px) {
+  .lhs2 {
+    height: 50%;
+    width: 50%;
+  }
+  } */
+  

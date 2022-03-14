@@ -1,0 +1,44 @@
+#second-headline{
+    text-align: center; 
+  }
+  
+  .lhs-subdiv {
+    margin: 90px 0px 10px 100px;
+  }
+  
+  .info h1{  
+    letter-spacing: 0.2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 46px;
+  }
+  
+  .info p{
+    margin: 10px 50px 0px 50px;  
+    padding: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+  }
+  
+  @media (min-width: 480px) {
+  .lhs{
+    background: url(static/whylearn-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0px !important;
+  }
+
+  .lhs h3{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .lhs p{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  }

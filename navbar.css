@@ -1,0 +1,40 @@
+
+@media screen and (max-width: 500px){
+  .navbar-toggler, .navbar-text {
+  display: none !important;
+  }
+}
+
+.navbar img{
+    height: 160px;
+    width: 150px;
+  }
+  
+  .navlogo a{  
+    color: #FFFFFF !important;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .navbar-text a{
+    padding: 0 10px;
+    color: #FFFFFF !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;  
+    text-align: left;
+    float: right;
+    letter-spacing: -0.015em;
+  }
+  
+  
+  .fa-bars{
+    color: #FFFFFF;
+    font-size: 30px !important;
+  }
+  
+  .navbar-toggler{
+    outline: none !important;
+  }
