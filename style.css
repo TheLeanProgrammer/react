@@ -7,8 +7,6 @@
   font-size: 1vw;
 }
 
-
-
 .curved-div {
   background: linear-gradient(39.97deg, #03D6F3 0.79%, #25B1F5 41.78%, #458FF6 79.29%);
   background-image: linear-gradient(45deg,#03D6F3,#458FF6);
@@ -24,15 +22,6 @@
   text-align: center;
   margin-top: 60px;
 }
-
-/* @media (min-width: 480px) {
-.subscribe {
-  background: url("static/testimonials_bg.png");
-  background-position: left; 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-} */
 
 .newsletter {
   background: linear-gradient(90.06deg, #30D7BA 0.05%, #03ABF3 35.43%, #458FF6 99.94%);
