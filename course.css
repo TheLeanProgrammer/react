@@ -13,8 +13,8 @@
   
   .card{
     margin: 35px 10px 35px 10px;
-    padding: 2px 2px 2px 2px;
-    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.15));
+    /* padding: 2px 2px 2px 2px; */
+    filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.15));
   }
   
   .card {
@@ -23,7 +23,7 @@
   
   .card img{
     border-radius: 15px 15px 0px 0px;  
-    padding: 0.5px;
+    /* padding: 0.5px; */
   }
   
   .card-body h5{
@@ -55,24 +55,34 @@
     margin: 15px;
   }
   
+
   .rhs2 h3{
     text-align: right;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    margin: 100px 0px 10px 0px;
+    /* margin: 100px 0px 10px 0px; */
   }
   
   .rhs2 p{
     text-align: right;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-    margin: 10px 0px 10px 0px; 
+    /* margin: 10px 0px 10px 0px;  */
+    padding: 0 !important;
   }
-  
-  /* @media (min-width: 480px) {
+
+
+  @media screen and (max-width: 500px){
+    .rhs2 h3, .rhs2 p {
+      text-align: center !important;
+      
+    }
+  }
+
   .lhs2 {
-    height: 50%;
-    width: 50%;
+    padding: 0 !important;
   }
-  } */
-  
+
+  .rhs2 {
+    padding: 0 !important;
+  }

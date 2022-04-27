@@ -8,14 +8,15 @@
   }
   
   .layout {
-    margin: 10px 0px 10px 0px;
-    padding: 10px; 
-    width: 75%;
+    /* margin: 10px 0px 10px 0px; */
+    /* padding: 10px;  */
+    margin: 2px;
+    padding: 2px;
     text-align: center;  
   }
   
   .accordion {
-    padding: 5px;
+    /* padding: 5px; */
     margin-top: 25px;
     margin-bottom: 15px;
     background: #FFFFFF;
@@ -24,22 +25,26 @@
   }
   
   .accordion__question p {
-    margin: 2px 0px 2px 0px;
-    padding: 10px;
+    /* margin: 2px 0px 2px 0px; */
+    padding-top: 15px;
     font-family: 'Mulish', sans-serif;
     font-size: 20px;
     font-weight: bold;
   }
 
   .accordion__answer p {
-    margin-left: 45px; 
-    padding: 10px;
+    /* margin-left: 45px;  */
+    /* padding: 10px; */
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     color: #000;
     background: #FFFFFF;
   }
   
+  .ans{
+    padding-bottom: 10px;
+    margin: 2px;
+  }
   .accordion:hover {
     cursor: pointer;
   }
@@ -59,9 +64,20 @@
 
 
   @media screen and (max-width: 500px){
-    .react-logo {
-
-      display: none !important;
-
+    .react-logo , .ans {
+      display: none !important;      
     }
+
+    .accordion__answer {
+      margin: 0 ;
+      padding: 0; 
+      /* width: 80%; */
+    }
+  }
+
+  @media screen and (min-width: 500px){
+    .layout{
+      width: 76%; 
+    }
+
   }

@@ -46,6 +46,7 @@
     <link rel="stylesheet" type="text/css" href="landing.css" />
     <link rel="stylesheet" type="text/css" href="course.css" />
     <link rel="stylesheet" type="text/css" href="testimonials.css" />
+    <link rel="stylesheet" type="text/css" href="footer.css" />
     <link rel="stylesheet" type="text/css" href="faqs.css" />
     <title>The React Mega Tutorial</title>
   </head>
@@ -174,7 +175,7 @@
       
         <div class="container">
           <div class="row">
-            <div class="col-md-4">
+            <div class="card-layout col-lg-4 col-sm-12 col-md-6">
               <div class="card" >
                 <img class="card-img-top" src="static/image1.png" class="img-fluid" alt="Responsive image">
                 <div class="card-body">
@@ -184,7 +185,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="card-layout col-lg-4 col-sm-12 col-md-6">
               <div class="card" >
                 <img class="card-img-top" src="static/image2.png" class="img-fluid" alt="Responsive image">
                 <div class="card-body">
@@ -194,7 +195,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="card-layout col-lg-4 col-sm-12 col-md-6">
               <div class="card" >
                 <img class="card-img-top" src="static/image1.png" class="img-fluid" alt="Responsive image">
                 <div class="card-body">
@@ -204,7 +205,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="card-layout col-lg-4 col-sm-12 col-md-6">
               <div class="card" >
                 <img class="card-img-top" src="static/image1.png" class="img-fluid" alt="Responsive image">
                 <div class="card-body">
@@ -214,7 +215,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="card-layout col-lg-4 col-sm-12 col-md-6">
               <div class="card">
                 <img class="card-img-top" src="static/image2.png" class="img-fluid" alt="Responsive image">
                 <div class="card-body">
@@ -224,7 +225,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="card-layout col-lg-4 col-sm-12 col-md-6">
               <div class="card">
                 <img class="card-img-top" src="static/image1.png" class="img-fluid" alt="Responsive image">
                 <div class="card-body">
@@ -252,13 +253,12 @@
             <div class="col col-md-5 col-sm-12 col-12 lhs2">
               <img src="static/instructor-img.png" class="img-fluid" alt="Responsive image">
             </div>
-            <div class="col col-md-6 col-sm-12 col-12 rhs2">
-              <div class="rhs2-subdiv ">
+            <div class="col col-md-6 col-sm-12 rhs2">
+              
                 <h3>Sed ut perspiciatis unde omnis</h3>
                 <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
                 <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>             
-              </div>
-              
+                           
             </div>            
           </div>
         </div>
@@ -314,59 +314,56 @@
           <div class="col col-md-8 col-sm-12 offset-md-4 ">
             <div class="accordion">
               <div class="row accordion__question">
-                <!-- <div class="react-logo">
-                  <img src="static/react.png" class="col col-md-2 img-fluid " alt="Responsive image">
-                </div> -->
-                <img src="static/react.png" class="col col-md-2 img-fluid " alt="Responsive image">
-                <p class="col col-md-6 col-sm-8">Where is Taj Mahal located?</p><i class="col col-md-2 col-sm-2 offset-md-1 fas fa-angle-down"></i>
+                <img src="static/react.png" class="col col-md-2 img-fluid react-logo" alt="Responsive image">
+                <p class="col col-md-6 col-sm-10">Where is Taj Mahal located?</p><i class="col col-md-2 col-sm-2 offset-md-2 fas fa-angle-down"></i>
               </div>
               <div class="row accordion__answer">
-                <p class="col col-md-6">Taj Mahal is located in Agra, Uttar Pradesh.</p> 
-                <img src="static/faq_vector.png" class="img-fluid col col-md-3 " alt="Responsive image">
+                <p class="col col-md-6 offset-sm-1">Taj Mahal is located in Agra, Uttar Pradesh.</p> 
+                <img src="static/faq_vector.png" class="img-fluid col col-md-4 ans" alt="Responsive image">
               </div>
             </div>
           
             <div class="accordion">
               <div class="row accordion__question">
-                <img src="static/react.png" class="col col-md-2 img-fluid" alt="Responsive image">
-                <p class="col col-md-6 col-sm-8">Where is Taj Mahal located?</p><i class="col col-md-2 col-sm-2 offset-md-1 fas fa-angle-down"></i>
+                <img src="static/react.png" class="col col-md-2 img-fluid react-logo" alt="Responsive image">
+                <p class="col col-md-6 col-sm-8">Where is Taj Mahal located?</p><i class="col col-md-2 col-sm-2 offset-md-2 fas fa-angle-down"></i>
               </div>
               <div class="row accordion__answer">
-                <p class="col col-md-6 ">Taj Mahal is located in Agra, Uttar Pradesh.</p> 
-                <img src="static/faq_vector.png" class="img-fluid col col-md-3 " alt="Responsive image">
+                <p class="col col-md-6 offset-sm-1 ">Taj Mahal is located in Agra, Uttar Pradesh.</p> 
+                <img src="static/faq_vector.png" class="img-fluid col col-md-4 ans" alt="Responsive image">
               </div>
             </div>
 
             <div class="accordion">
               <div class="row accordion__question">
-                <img src="static/react.png" class="col col-md-2 img-fluid" alt="Responsive image">
-                <p class="col col-md-6 col-sm-8">Where is Taj Mahal located?</p><i class="col col-md-2 col-sm-2 offset-md-1 fas fa-angle-down"></i>
+                <img src="static/react.png" class="col col-md-2 img-fluid react-logo" alt="Responsive image">
+                <p class="col col-md-6 col-sm-8">Where is Taj Mahal located?</p><i class="col col-md-2 col-sm-2 offset-md-2 fas fa-angle-down"></i>
               </div>
               <div class="row accordion__answer">
-                <p class="col col-md-6 ">Taj Mahal is located in Agra, Uttar Pradesh.</p> 
-                <img src="static/faq_vector.png" class="img-fluid col col-md-3 " alt="Responsive image">
+                <p class="col col-md-6 offset-sm-1 ">Taj Mahal is located in Agra, Uttar Pradesh.</p> 
+                <img src="static/faq_vector.png" class="img-fluid col col-md-4 ans" alt="Responsive image">
               </div>
             </div>
 
             <div class="accordion">
               <div class="row accordion__question">
-                <img src="static/react.png" class="col col-md-2 img-fluid" alt="Responsive image">
-                <p class="col col-md-6 col-sm-8">Where is Taj Mahal located?</p><i class="col col-md-2 col-sm-2 offset-md-1 fas fa-angle-down"></i>
+                <img src="static/react.png" class="col col-md-2 img-fluid react-logo" alt="Responsive image">
+                <p class="col col-md-6 col-sm-8">Where is Taj Mahal located?</p><i class="col col-md-2 col-sm-2 offset-md-2 fas fa-angle-down"></i>
               </div>
               <div class="row accordion__answer">
-                <p class="col col-md-6 ">Taj Mahal is located in Agra, Uttar Pradesh.</p> 
-                <img src="static/faq_vector.png" class="img-fluid col col-md-3 " alt="Responsive image">
+                <p class="col col-md-6 offset-sm-1 ">Taj Mahal is located in Agra, Uttar Pradesh.</p> 
+                <img src="static/faq_vector.png" class="img-fluid col col-md-4 ans" alt="Responsive image">
               </div>
             </div>
 
             <div class="accordion">
               <div class="row accordion__question">
-                <img src="static/react.png" class="col col-md-2 img-fluid" alt="Responsive image">
-                <p class="col col-md-6 col-sm-8">Where is Taj Mahal located?</p><i class="col col-md-2 col-sm-2 offset-md-1 fas fa-angle-down"></i>
+                <img src="static/react.png" class="col col-md-2 img-fluid react-logo" alt="Responsive image">
+                <p class="col col-md-6 col-sm-8">Where is Taj Mahal located?</p><i class="col col-md-2 col-sm-2 offset-md-2 fas fa-angle-down"></i>
               </div>
               <div class="row accordion__answer">
-                <p class="col col-md-6 ">Taj Mahal is located in Agra, Uttar Pradesh.</p> 
-                <img src="static/faq_vector.png" class="img-fluid col col-md-3 " alt="Responsive image">
+                <p class="col col-md-6 offset-sm-1 ">Taj Mahal is located in Agra, Uttar Pradesh.</p> 
+                <img src="static/faq_vector.png" class="img-fluid col col-md-4 ans" alt="Responsive image">
               </div>
             </div>
           </div>
@@ -438,17 +435,17 @@
                               <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gb" class="fa fa-github-square fa-3x social"></i></a>
                               <a href="mailto:#"><i id="social-yt" class="fa fa-youtube-square fa-3x social"></i></a> </p>
                         </div>
-                
-              </section>
-        <p style="margin-top: 5px;">© TheLeanProgrammer, 2021</p>
-      </div>
-        <div class="parinda-mobile">
-          <p>Special Thanks - Parinda Pranami</p>
-        </div>
-      
-    
-      <script src="index.js"></script>
+        </section>
 
+        <p style="margin-top: 5px;">© TheLeanProgrammer, 2021</p>
+
+      </div>
+        
+      <div class="parinda-mobile">
+          <p>Developed by ~ Parinda Pranami</p>
+      </div>
+  
+      <script src="index.js"></script>
   </body>
 </html>
 
